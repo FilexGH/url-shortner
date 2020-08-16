@@ -2,7 +2,8 @@
 
 This is my URL Shortner API project.
 
-The Project is built in the following Technologies: 
+**Dependencies:**
+---
 
 **Main**
 * Node.js (Express for server)
@@ -20,7 +21,8 @@ The Project is built in the following Technologies:
 * Crypto (A default node package, used to create offsets *random bytes*)
 * is-url (To Check the validity of URLs passed)
 
-***Usage**
+**Usage**
+---
 
 Once you cloned the project or dowloaded you will need to dowload 
 the dependencies and then run the server using the following commands:
@@ -32,6 +34,7 @@ npm run start or npm run dev ( for development )
 ```
 
 You will need also to update the `config.json` file with a valid mongodb cluster url.
+*Used DB Name is "URLs" and Collection name is "Data"*
 ```json 
 {
     "MONGO_DB_URL": "URL"
